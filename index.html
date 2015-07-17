@@ -6,14 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tracker</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <!-- REACT JSX DEV IMPORTS
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script> 
+    -->
+    <!-- Dev Version https://github.com/yyx990803/vue/blob/dev/dist/vue.js -->
+    <script src="lib/vue.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
-    <div id="content" class="container"></div>
+    <div id="content" class="container">
+      <h1>{{title | uppercase}}</h1>
+      <ul>
+        <li v-repeat="todos"
+            v-on="click: done = !done"
+            class="{{done ? 'bg-success' : ''}}">
+          {{content}}
+        </li>
+      </ul>
+    </div>
     
 
-    <script type="text/jsx;harmony=true" src="js/main.js"></script>
+    <!-- <script type="text/jsx;harmony=true" src="js/main.js"></script> -->
+    <script src="js/mainvue.js"></script>
   </body>
 </html>
