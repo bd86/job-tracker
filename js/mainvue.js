@@ -4,12 +4,16 @@ var demo = new Vue({
         title: 'todos',
         todos: [
             {
-                done: true,
+                done: false,
                 content: 'Learn JavaScript'
             },
             {
-                done: false,
+                done: true,
                 content: 'Learn Vue.js'
+            },
+            {
+                done:false,
+                content: 'Move'
             }
         ]
     }
