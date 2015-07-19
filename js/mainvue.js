@@ -14,6 +14,10 @@ var demo = new Vue({
             {
                 done:false,
                 content: 'Move'
+            },
+            {
+                done: true,
+                content: 'still moving'
             }
         ]
     }
