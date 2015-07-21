@@ -9,3 +9,4 @@ _notes
 sftp-config.json
 jobs.json
 /lib/
+/node_modules/
