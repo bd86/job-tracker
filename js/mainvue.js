@@ -1,27 +1,27 @@
-var demo = new Vue({ 
+var main = new Vue({ 
   el: '#content',
   data: {
     title: 'todos',
     todos: [
       {
         done: false,
-        test: 'SOmething',
+        test: 'Something',
         content: 'Learn JavaScript'
       },
       {
         done: true,
-        test: 'SOmething',
+        test: 'Something',
         content: 'Learn Vue.js'
       },
       {
         done:false,
-        test: 'SOmething',
+        test: 'Something',
         content: 'Move'
       },
       {
         done: true,
-        test: 'SOmething',
-        content: 'still moving'
+        test: 'Something',
+        content: 'not moving'
       }
     ],
     newTask: ''
@@ -39,8 +39,15 @@ var demo = new Vue({
       this.newTask = '';
     },
 
+    editTask: function(todo) {
+      this.todos.$remove(todo);
+      //console.log(todo);
+      this.newTask = todo.content;
+      this.$$.newTask.focus();
+    },
+
     removeTask: function(todo) {
-      console.log(todo);
+      //console.log(todo);
       this.todos.$remove(todo);
     }
   }

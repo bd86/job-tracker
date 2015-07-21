@@ -20,13 +20,14 @@
       <ul>
         <li v-repeat="todo: todos"
             class="list-group-item">
-          {{todo.content}}
+          <span v-on="dblclick: editTask(todo)">{{todo.content}}</span>
           <button v-on="click: removeTask(todo)">&#10007;</button>
         </li>
       </ul>
       <form v-on="submit: addTask">
         <div class="form-group">
-          <input v-model="newTask" type="text" class="form-control" placeholder="Input" />
+          <input v-model="newTask"
+                 v-el="newTask" type="text" class="form-control" placeholder="Input" />
 
         </div>
         <button class="btn btn-primary">Add</button>
