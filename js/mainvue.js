@@ -22,6 +22,11 @@ var main = new Vue({
         done: true,
         test: 'Something',
         content: 'not moving'
+      },
+      {
+        done: true,
+        test: 'Something',
+        content: 'finshed moving'
       }
     ],
     newTask: ''
