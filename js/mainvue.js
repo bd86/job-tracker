@@ -1,3 +1,4 @@
+//Vue version
 var main = new Vue({ 
   el: '#content',
   data: {
