@@ -1,3 +1,4 @@
+//React Version
 var TrackerBox = React.createClass({
   getInitialState: function () {
     return {data: []};
