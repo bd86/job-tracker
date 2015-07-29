@@ -45,7 +45,7 @@ var main = new Vue({
         content: 'Finished Game'
       },
       {
-        done: false,
+        done: true,
         test: 'Something',
         content: 'added'
       }
