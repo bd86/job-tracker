@@ -43,6 +43,11 @@ var main = new Vue({
         done: false,
         test: 'Something',
         content: 'Finished Game'
+      },
+      {
+        done: false,
+        test: 'Something',
+        content: 'added'
       }
     ],
     newTask: ''
