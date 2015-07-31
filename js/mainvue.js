@@ -50,7 +50,7 @@ var main = new Vue({
         content: 'added'
       },
       {
-        done: true,
+        done: false,
         test: 'Something',
         content: 'Soon?'
       }
