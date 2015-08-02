@@ -55,7 +55,7 @@ var main = new Vue({
         content: 'Soon?'
       },
       {
-        done: true,
+        done: false,
         test: 'Something',
         content: 'Need to go?'
       }
