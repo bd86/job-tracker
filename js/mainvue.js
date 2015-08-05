@@ -60,7 +60,7 @@ var main = new Vue({
         content: 'Need to go?'
       },
       {
-        done: false,
+        done: true,
         test: 'Something',
         content: 'Got bed?'
       }
