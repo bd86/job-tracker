@@ -48,11 +48,6 @@ var main = new Vue({
         done: true,
         test: 'Something',
         content: 'Soon?'
-      },
-      {
-        done: false,
-        test: 'Something',
-        content: 'Need to go?'
       }
     ],
     newTask: ''
