@@ -15,11 +15,6 @@ var main = new Vue({
         content: 'Learn Vue.js'
       },
       {
-        done:false,
-        test: 'Something',
-        content: 'Move'
-      },
-      {
         done: true,
         test: 'Something',
         content: 'not moving'
