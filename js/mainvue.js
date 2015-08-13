@@ -25,6 +25,11 @@ var main = new Vue({
         content: 'Ready for weekend'
       },
       {
+        done: true,
+        test: 'Something',
+        content: 'Almost ready?'
+      },
+      {
         done: false,
         test: 'Something',
         content: 'Finished Game'
