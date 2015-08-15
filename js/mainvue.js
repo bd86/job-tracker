@@ -17,11 +17,6 @@ var main = new Vue({
       {
         done: true,
         test: 'Something',
-        content: 'finshed moving'
-      },
-      {
-        done: true,
-        test: 'Something',
         content: 'Ready for weekend'
       },
       {
