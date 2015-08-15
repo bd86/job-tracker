@@ -24,11 +24,17 @@ var main = new Vue({
         test: 'Something',
         content: 'Almost ready?'
       },
+       {
+        done: false,
+        test: 'Something',
+        content: 'Flight here?'
+      },
       {
         done: false,
         test: 'Something',
         content: 'Finished Game'
       }
+      
     ],
     newTask: ''
   },
