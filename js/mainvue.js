@@ -10,11 +10,6 @@ var main = new Vue({
         content: 'Learn JavaScript'
       },
       {
-        done: true,
-        test: 'Something',
-        content: 'Ready for weekend'
-      }
-      {
         done: false,
         test: 'Something',
         content: 'Finished Game'
