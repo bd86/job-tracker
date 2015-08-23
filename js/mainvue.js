@@ -10,9 +10,14 @@ var main = new Vue({
         content: 'Learn JavaScript'
       },
       {
-        done: false,
+        done: true,
         test: 'Something',
         content: 'Saw manatee'
+      },
+      {
+        done: false,
+        test: 'Something',
+        content: 'Fix car'
       },
       {
         done: false,
