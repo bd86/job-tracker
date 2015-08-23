@@ -12,6 +12,11 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
+        content: 'Saw manatee'
+      },
+      {
+        done: false,
+        test: 'Something',
         content: 'Finished Game'
       }
       
