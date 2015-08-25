@@ -17,6 +17,11 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
+        content: 'Fixed cable'
+      },
+      {
+        done: false,
+        test: 'Something',
         content: 'Fix car'
       },
       {
