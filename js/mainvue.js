@@ -17,7 +17,7 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
-        content: 'Fix car'
+        content: 'Still Fix car'
       },
       {
         done: false,
