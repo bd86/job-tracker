@@ -13,7 +13,7 @@ var main = new Vue({
         done: true,
         test: 'Something',
         content: 'Saw manatee'
-      },adfg
+      },
       {
         done: false,
         test: 'Something',
