@@ -22,7 +22,7 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
-        content: 'still Finished Game?'
+        content: 'still Finished Game'
       }
       
     ],
