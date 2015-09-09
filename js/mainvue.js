@@ -24,6 +24,12 @@ var main = new Vue({
         test: 'Something',
         content: 'still Finished Game'
       }
+      ,
+      {
+        done: false,
+        test: 'Something',
+        content: 'Have worked on this?'
+      }
       
     ],
     newTask: ''
