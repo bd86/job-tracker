@@ -28,7 +28,7 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
-        content: 'Have worked on this?'
+        content: 'still Have worked on this?'
       }
       
     ],
