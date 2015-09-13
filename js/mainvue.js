@@ -15,7 +15,7 @@ var main = new Vue({
         content: 'Saw manatee'
       },
       {
-        done: false,
+        done: true,
         test: 'Something',
         content: Almost Still Fix car'
       },
@@ -23,8 +23,7 @@ var main = new Vue({
         done: false,
         test: 'Something',
         content: 'still Finished Game'
-      }
-      ,
+      },
       {
         done: false,
         test: 'Something',
