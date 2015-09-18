@@ -32,7 +32,7 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
-        content: 'Get Game'
+        content: 'Get Game Soon?'
       },
       {
         done: false,
