@@ -30,7 +30,7 @@ var main = new Vue({
         content: 'Finished Dune'
       },
       {
-        done: false,
+        done: true,
         test: 'Something',
         content: 'Get Game Soon?'
       },
