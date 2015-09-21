@@ -37,6 +37,11 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
+        content: 'Make more levels'
+      },
+      {
+        done: false,
+        test: 'Something',
         content: 'still Have worked on this ahhhh?'
       }
       
