@@ -42,6 +42,11 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
+        content: 'Boss level'
+      },
+      {
+        done: false,
+        test: 'Something',
         content: 'still Have worked on this ahhhh?'
       }
       
