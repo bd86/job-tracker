@@ -42,7 +42,7 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
-        content: 'Boss level'
+        content: 'Alomost Boss level'
       },
       {
         done: false,
