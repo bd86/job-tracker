@@ -40,6 +40,11 @@ var main = new Vue({
         content: 'Make more levels'
       },
       {
+        done: true,
+        test: 'Something',
+        content: 'Make flying level'
+      },
+      {
         done: false,
         test: 'Something',
         content: 'Alomost Boss level'
