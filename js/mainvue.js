@@ -42,7 +42,7 @@ var main = new Vue({
       {
         done: true,
         test: 'Something',
-        content: 'Make flying level'
+        content: 'Make ok flying level'
       },
       {
         done: false,
