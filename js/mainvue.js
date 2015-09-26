@@ -47,7 +47,7 @@ var main = new Vue({
       {
         done: true,
         test: 'Something',
-        content: 'Make yoshi levels'
+        content: 'Make yoshi ok levels'
       },
       {
         done: false,
