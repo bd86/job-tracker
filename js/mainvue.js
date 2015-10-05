@@ -1,6 +1,6 @@
 //Vue version
 var main = new Vue({ 
-  el: '#content',bgf
+  el: '#content',
   data: {
     title: 'todos',
     todos: [
