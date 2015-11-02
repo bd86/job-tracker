@@ -57,6 +57,11 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
+        content: 'Port to v1'
+      },
+      {
+        done: false,
+        test: 'Something',
         content: 'still Have worked on this ahhhh!?!?!??!?!!???!?!??!???!!????'
       }
       
