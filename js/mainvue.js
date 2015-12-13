@@ -62,7 +62,7 @@ var main = new Vue({
       {
         done: false,
         test: 'Something',
-        content: 'still Have worked on this ahhhh!?!?!!??!!!1!?!?!!?!1??!?!?!?!!?!!'
+        content: 'still Have worked on this ahhhh!?!?!!??!!!1!?!?!!?!1?!?!?!?!?!!?!!'
       }
       
     ],
